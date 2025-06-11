@@ -69,51 +69,7 @@ print(degree)
 print(gender)
 
 
-print(10**2)
-a=50
-b=30
-print(a+b)
-print(a-b)
-print(a/b)
-print(a*b)
-print(a%b)
-print(a//b)
 
-a=10
-b=5
-print(a)
-print(b)
-
-a+=b
-print(a)
-print(b)
-
-
-x=30
-y=15
-x%=y
-print(x)
-print(y)
-
-a=20
-b=30
-print(a>b)
-print(a<b)
-print(a>=b)
-print(a<=b)
-print(a==b)
-print(a!=b)
-
-x=20
-y=30
-print(x>y or x==20)
-
-m=57
-n=63
-print(m==n and not(m>n))
-print(m<60 or n<=m)
-print(not(m==n))
-print((m==n and not(m>n)) or(n<70))
 
 
 

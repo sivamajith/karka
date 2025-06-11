@@ -8,21 +8,6 @@ a=7
 b=5
 print(a+b)
 
-pi=3.14
-# r=10=20
-b=30
-temp=a
-a=b
-b=temp
-print(a)
-print(b)
-
-a=a+b
-b=a-b
-a=a-b
-print(a)
-print(b)
-print(pi*r*r)
 
 length=10
 width=10
@@ -39,18 +24,24 @@ b=10
 add=a+b
 sub=a-b
 mul=a*b
-div=
+div=a/b
 
+print(add)
+print(sub)
+print(mul)
+print(div)
 
+x=10
+print("initial valve",x)
+x+=5
+print("after+=5",x)
+x-=3
+print("after-3",x)
+x*=2
+print("after*=2",x)
+x/=4
+print("after/=4",x)
 
-
-b=10
-a+=ba=50
-print(a)
-print(b)
-a-=b
-print(a)
-print(b)
 
 a=10
 b=20
@@ -73,15 +64,26 @@ a<=b
 print(a)
 print(b)
 
+num=10
+num+=5
+num-=3
+print("final valuve",num)
+
 print(True and False)
 print(True or False)
 print(not False)
+
+num1=float(input("first num"))
+num2=float(input("second num"))
+num3=float(input("third num"))
+avg=(num1+num2+num3)/3
+print("avg of three num",avg)
 
 a=10
 b=20
 c=30
 sum=(a+b+c)/3
-print
+print(sum)
 
 
 
